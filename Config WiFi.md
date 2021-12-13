@@ -19,6 +19,9 @@ network={
 2. To change boot loop:
 - SSH into the device as above
 - Edit the cron job:
-```bash
-*/30 * * * * python3 /home/pi/Pimoroni/inky/examples/phat/calendar-phat.py --colour "red
+```crontab -e```
+Scroll to the bottom, edit lines such as this:
 ```
+*/30 * * * * python3 disp_images.py -f inky-drake.png
+```
+you'd likely want to change the number 30 here (currently runs every 30 minutes) and the file name inky-drake.png to your desired one.

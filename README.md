@@ -1,6 +1,6 @@
 # Badge of Honor
 Use Pimoroni's inky pHat to show off the star and fork counts of your favorite GitHub project. (In my case, [Drake](https://drake.mit.edu/)).
-![[DrakeBadgeHonor.GIF]]
+![Screenshot](DrakeBadgeHonor.GIF)
 ## Why? 
 - Looks cute! Perfect for mod with Lego and makes great (holiday) gift.
 - The display is eink, so the image stays on even without power; but with power the counts also get pulled every a few hours.
@@ -31,13 +31,4 @@ So it takes a few steps to get the image right. First, we need to create visuall
 Next, feed our image into `convert.py` script, to convert it into the specification pHat accepts.  For instance, running  `python3 convert.py -f drake.png` outputs an image named with prefix `inky-drake.png`. 
 
 
-The `main.py` is a minor modification of the nametag tutorial, with the main change being a simple can to pull from Github the stat and forks counts.
 
-If you'd like the crob job to only deal with one set of the packages 
-```crontab -e```
-
-```
-*/360 * * * * python3 /home/pi/Pimoroni/inky/examples/drake-badge.py 
-```
-
-StataCenter
