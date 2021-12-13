@@ -1,11 +1,13 @@
 # Badge of Honor
-Use Pimoroni's inky pHat to show off the star and fork counts of your favorite GitHub project. (In my case, [Drake](https://drake.mit.edu/)).
+Use Pimoroni's inky pHat to show off the star and fork counts of your favorite GitHub project. 
+
+In my case, [Drake](https://drake.mit.edu/).
 ![Screenshot](DrakeBadgeHonor.GIF)
 ## Why? 
 - Looks cute! Perfect for mod with Lego and makes great (holiday) gift.
 - The display is eink, so the image stays on even without power; but with power the counts also get pulled every a few hours.
-- It's not just your regular panda-colored eink; it got Red too!
-- Get youngsters into tinckering... 
+- It's not just your regular panda-colored eink; it got `diff -Red-` too!
+<!-- - Get youngsters into tinckering...  -->
 
 ## What?
 #### Hardware
