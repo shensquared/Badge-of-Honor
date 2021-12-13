@@ -6,7 +6,7 @@ In my case, [Drake](https://drake.mit.edu/).
 ## Why? 
 - Looks cute! Perfect for mod with Lego and makes great (holiday) gift.
 - The display is eink, so the image stays on even without power; but with power the counts also get pulled every a few hours.
-- It's not just your regular panda-colored ⬛️◻️; it got red 🎈 too!
+- It's not just your regular panda-colored eink 🐼; it got red 🎈 too!
 <!-- - Get youngsters into tinckering...  -->
 
 ## What?
