@@ -1,23 +1,21 @@
 # Badge of Honor
-Use Pimoroni's inky pHat to show off the star and fork counts of your favorite GitHub project. 
-
-In my case, [Drake](https://drake.mit.edu/).
+Use Pimoroni's inky pHat to show off the star and fork counts of your favorite GitHub project. In my case, [Drake](https://drake.mit.edu/).
 
 ![Screenshot](images/DrakeBadgeHonor.GIF)
 
 ## Why? 
-- Looks cute! Perfect for mod with Lego and makes great (holiday) gifts.
+- It's not just your regular panda-colored eink 🐼; it got red 🎈 too!
+- Tiny and cute! Perfect for mod with Lego and makes great (holiday) gifts.
 ![Screenshot](images/LegoFront.jpg)
 ![Screenshot](images/LegoBack.jpg)
 ![Screenshot](images/LegoSide.jpg)
 - The display is eink, so the image stays on even without power; but with power the counts also get pulled every a few hours.
-- It's not just your regular panda-colored eink 🐼; it got red 🎈 too!
 <!-- - Get youngsters into tinckering...  -->
 
 ## What?
 #### Hardware
 - Pimoroni's [inky pHat](https://www.adafruit.com/product/3743)
-- Raspberry pi (any 20-pin version works)
+- Raspberry pi (any 20-pin version works, I'm using a Pi Zero W)
 - MicroSD card
 - MicroUSB cable
 #### Software
@@ -43,7 +41,7 @@ To get sth like the Gif demo, run `python3 main.py`. The script has a few things
 - Your favorite Git repo address
 - The background you created from the steps above
 - Error info for when Pi is having WiFi connection issue; in this case, a QR code will be shown 
-![Screenshot](images/inky-Wifi.png), 
+![Screenshot](images/inky-Wifi.png),
 which when scanned directs to [Wifi Config Tutorial](https://github.com/shensquared/Badge-of-Honor/blob/main/Config%20WiFi.md).
 
 
