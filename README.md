@@ -29,7 +29,7 @@ curl https://get.pimoroni.com/inky | bash
 
 ## How?
 It's helpful to follow Pimoroni's [tutorial](https://learn.pimoroni.com/article/getting-started-with-inky-phat), particularly the name tag one, since our goal is similarly to draw some non-static texts on top of a static background. (The tutorial also gets all the prerequisites installed.) 
-#### Background prep
+#### Background image prep
 But, in the name tag example, the background can be drawn 'on-the-go' as it is simply a red strip, which is easily represented as an array of red/fixed pixels. We'd like our background to be a bit more customized/fancier, which requires a little preparation. Because pHat is a bit picky in terms of acceptable images:
 >They should be PNG-8 images, 250x122 pixels, and in indexed colour mode with a palette of just three colours - white, red and black (in that order!).
 
@@ -41,8 +41,8 @@ So it takes a few steps to get the image right:
 #### Fire up to pHat
 To get sth like the Gif demo, run `python3 main.py`. The script has a few things hard coded, but easily modifiable:
 - Your favorite Git repo address
-- The background you created from the step above
-- Error info for when Pi is having WiFi connection issue, in which case, a QR code is shown, like 
+- The background you created from the steps above
+- Error info for when Pi is having WiFi connection issue; in this case, a QR code will be shown 
 ![Screenshot](images/inky-Wifi.png), 
 which when scanned directs to [Wifi Config Tutorial](https://github.com/shensquared/Badge-of-Honor/blob/main/Config%20WiFi.md).
 
