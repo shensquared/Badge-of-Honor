@@ -4,12 +4,13 @@ Use Pimoroni's inky pHat to show off the star and fork counts of your favorite G
 ![Screenshot](images/DrakeBadgeHonor.GIF)
 
 ## Why? 
+- The display is eink, so the image stays on even without power; but with power the counts also get pulled every a few hours.
 - It's not just your regular panda-colored eink 🐼; it got red 🎈 too!
 - Tiny and cute! Perfect for mod with Lego and makes great (holiday) gifts.
 ![Screenshot](images/LegoFront.jpg)
 ![Screenshot](images/LegoBack.jpg)
 ![Screenshot](images/LegoSide.jpg)
-- The display is eink, so the image stays on even without power; but with power the counts also get pulled every a few hours.
+
 <!-- - Get youngsters into tinckering...  -->
 
 ## What?
