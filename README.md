@@ -39,14 +39,15 @@ So it takes a few steps to get the image right:
 2. Feed our image into `convert.py` script, to convert it into the specification pHat accepts. For instance, say the image we created in step 1 is named `drake.png`, then running `python3 convert.py -f drake.png` outputs/saves an image named `inky-drake.png`.
 
 #### Fire up to pHat
-To get sth like the Gif demo, simply run `python3 main.py`, which has a few things hard-coded:
+To get sth like the Gif demo, run `python3 main.py`. The script has a few things hard coded, but easily modifiable:
 - Your favorite Git repo address
 - The background you created from the step above
 - Error info for when Pi is having WiFi connection issue, in which case, a QR code is shown, like 
-![Screenshot](images/inky-Wifi.png), which when scanned directs to [Wifi Config Tutorial](https://github.com/shensquared/Badge-of-Honor/blob/main/Config%20WiFi.md)
+![Screenshot](images/inky-Wifi.png), 
+which when scanned directs to [Wifi Config Tutorial](https://github.com/shensquared/Badge-of-Honor/blob/main/Config%20WiFi.md).
 
 
-The `disp_images.py` script simply displays a static background image onto pHat (like the Happy Holiday one shown in the Lego picture). The usage is simply (using the snowman pic as an example):
+As a btw, the `disp_images.py` script simply displays a static background image onto pHat (like the Happy Holiday one shown in the Lego picture). The usage is simply (using the snowman pic as an example):
 ```
 python3 disp_images.py -f inky-snowman.png
 
